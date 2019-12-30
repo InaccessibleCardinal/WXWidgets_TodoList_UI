@@ -1,0 +1,4 @@
+// Hint files help the Visual Studio IDE interpret Visual C++ identifiers
+// such as names of functions and macros.
+// For more information see https://go.microsoft.com/fwlink/?linkid=865984
+#define wxDECLARE_EVENT_TABLE() private: static const wxEventTableEntry sm_eventTableEntries[]; protected: wxCLANG_WARNING_SUPPRESS(inconsistent-missing-override) const wxEventTable* GetEventTable() const; wxEventHashTable& GetEventHashTable() const; wxCLANG_WARNING_RESTORE(inconsistent-missing-override) static const wxEventTable sm_eventTable; static wxEventHashTable sm_eventHashTable
