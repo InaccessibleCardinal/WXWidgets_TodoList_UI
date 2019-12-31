@@ -6,10 +6,11 @@ TodoStore::TodoStore() {
 	std::vector<Todo> todoList;
 }
 
-TodoStore::~TodoStore() {}
+TodoStore::~TodoStore() {
+	
+}
 
 void TodoStore::addTodo(Todo t) {
-	//todoList.insert(t);
 	todoList.insert(todoList.end(), t);
 }
 
